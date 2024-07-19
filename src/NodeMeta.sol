@@ -22,9 +22,9 @@ contract NodeMeta is Patchwork721, NodeMetaStorage {
         return string.concat("https://onchain.dockhive.app/images/", Strings.toString(tokenId), ".png");
     }
 
-    function _baseURI() internal pure virtual override returns (string memory) {
-        return "";
-    }
+    // function _baseURI() internal pure virtual override returns (string memory) {
+    //     return "";
+    // }
 
     // Use the inherited _metadataStorage from Patchwork721
     function storeMetadata(uint256 tokenId, Metadata memory data) public override {

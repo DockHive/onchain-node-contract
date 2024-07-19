@@ -36,11 +36,11 @@ contract NodeMetaStorage {
     }
 
     // Functions for metadata operations
-    function storeMetadata(uint256 tokenId, Metadata memory data) public virtual {
-        revert("storeMetadata function should be implemented in inheriting contracts");
-    }
+    // function storeMetadata(uint256 tokenId, Metadata memory data) public virtual {
+    //     revert("storeMetadata function should be implemented in inheriting contracts");
+    // }
 
-    function loadMetadata(uint256 tokenId) public view virtual returns (Metadata memory data) {
-        revert("loadMetadata function should be implemented in inheriting contracts");
-    }
+    // function loadMetadata(uint256 tokenId) public view virtual returns (Metadata memory data) {
+    //     revert("loadMetadata function should be implemented in inheriting contracts");
+    // }
 }

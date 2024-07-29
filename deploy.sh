@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the private key with 0x prefix
-ETH_PRIVATE_KEY="0x576b5841f85211522150d870e82168e76e299fb01c65e9715f28c442b4c321b2"
+ETH_PRIVATE_KEY=""
 
 # Verify that the private key is set correctly
 if [[ -z "$ETH_PRIVATE_KEY" ]]; then

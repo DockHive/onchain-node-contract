@@ -19,7 +19,7 @@ The `NodeMeta` contract is built on top of the Patchwork721 contract and include
 - `NodeMeta.sol`: The main contract file.
 - `models/NodeMetaStorage.sol`: The storage model for the contract.
 
-**Contract Address:** `0xFFA96Cf4EA27624C41DeBf3DE225E6261BEEF39f`
+**Contract Address:** `0x753a6b3B9610651e87A1cf459628b956E37a7dC1`
 
 **Testnet URL:** [testnet.dockhive.io](https://testnet.dockhive.io)
 
